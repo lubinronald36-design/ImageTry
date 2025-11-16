@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.room-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.room {
+  margin: 20px;
+  width: calc(33.33% - 40px);
+}
+
+.room img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
